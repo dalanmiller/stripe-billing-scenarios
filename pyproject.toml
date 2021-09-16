@@ -6,6 +6,7 @@ authors = ["dalan <863286+dalanmiller@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+stripe = "^2.60.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
