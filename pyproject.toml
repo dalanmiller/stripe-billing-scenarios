@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stripe-billing-scenarios"
+version = "0.1.0"
+description = "A repository of Stripe Billing scenarios"
+authors = ["dalan <863286+dalanmiller@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+tox = "^3.24.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
